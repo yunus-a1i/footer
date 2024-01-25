@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 @keyframes fadeInAnimation {
     0% {
@@ -131,6 +135,7 @@ ul li:hover {
     font-size: 2rem;
     animation: fadeInBottom ease 1s;
     animation-fill-mode: both;
+    transition: .4s ease-in-out ;
 }
 
 .space {
